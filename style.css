@@ -1,0 +1,262 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #000000;
+    --header-bg: #000000;
+    --header-text: #fff;
+    --button-bg: #333;
+    --button-text: #fff;
+    --fa-color: white;
+}
+
+[data-theme="dark"] {
+    --bg-color: #333;
+    --text-color: #f4f4f4;
+    --header-bg: #000;
+    --header-text: #fff;
+    --button-bg: #555;
+    --button-text: #fff;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family:'Montserrat';
+    line-height: 1.6;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1.5vw;
+}
+
+nav ul li a {
+    color: var(--header-text);
+    text-decoration: none;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* padding: 10px; */
+    /* background: var(--button-bg); */
+    /* background-color: #333; */
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+/* #theme-toggle:hover {
+     background: #000000; 
+} */
+
+section {
+    padding: 5vw 0;
+    margin: 10px auto;
+    max-width: 80%;
+
+    background: var(--bg-color);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+h1{
+    font-style: oblique;
+    font-size: 3vw;
+}
+
+
+.project {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 1.5vw;
+    background-color: #000;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+}
+
+form button {
+    padding: 10px;
+    background-color: rgb(204, 25, 25);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: #443a3a;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    /* padding: 0.5rem 0; */
+    background: var(--header-bg);
+    color: var(--header-text);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.icon{
+    text-align: center;
+
+}
+
+div.icon .fa {
+padding: 0.5vw  2vw;
+font-size: 1vw;
+width: 5px;
+text-align: center;
+text-decoration: none;
+margin: 3px ;
+border-radius: 50%;
+}
+.fa-facebook {
+color: white;
+}
+.fa-twitter {
+color: white;
+}
+.fa-youtube {
+color: white;
+}
+.fa-instagram {
+color: white;
+}
+.fa-linkedin
+{
+    color: white;
+}
+.fa-github
+{
+    color: wheat;
+}
+.fa-envelope
+{
+    color: wheat;
+}
+.fa-phone
+{
+    color: white;
+}
+
+.fa-toggle-on
+{
+    background-color: none;
+    font-size: 2rem;
+}
+/* footer>
+  h4{
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  width: 100%;
+  height: 13px;
+  text-align: center; 
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+} */
+img{
+    width: 30vw;
+    height: 20vw;
+    float:right;
+    padding-top: 5vw;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.flex-item-left {
+    padding-top: 5vw;
+flex: 50%;
+color: var(--text-color);
+}
+
+.flex-item-right {
+/* padding: 10px; */
+flex: 50%;
+}
+.cnt{
+    text-align: center;
+}
+::placeholder
+{
+    color: #000;
+}
+.da {
+    /* padding: 0  2vw; */
+    font-size: 1rem;
+    position: absolute;
+    /* padding-top: 20px; */
+    /* width: 5px; */
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* margin: 3px ; */
+    /* border-radius: 50%; */
+    /* color: #000; */
+    /* padding: 2rem; */
+    color: var(--text-color);
+}
+.MAIL{
+    padding-left: 2vw;
+    font-size: 1rem;
+    /* float: right; */
+    position: relative;
+    font-family:'Montserrat';
+}
+.PHN{
+    font-size: 1rem;
+    position: relative;
+    /* float: right; */
+    font-family:'Montserrat';
+    padding-left: 2vw;
+}
+.adds{
+    font-size: 1rem;
+    /* float: right; */
+    position: relative;
+    font-family:'Montserrat';
+    padding-left: 2vw;
+}
