@@ -192,11 +192,23 @@ color: white;
   bottom: 0%;
   position: fixed;
 } */
-img{
-    width: 30vw;
-    height: 20vw;
+.imgs{
+    width: 20vw;
     float:right;
-    padding-top: 5vw;
+    margin-top: 5vw;
+    align-items: center;
+    border: #000 solid 3px;
+    
+}
+.pic{
+    /* float:right; */
+    margin: 1vw;
+    align-items: center;
+    width: 15vw;
+
+}
+.galary
+{
     align-items: center;
 }
 
@@ -259,4 +271,8 @@ flex: 50%;
     position: relative;
     font-family:'Montserrat';
     padding-left: 2vw;
+}
+.bio
+{
+    padding-right: 5vw;
 }
